@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Deutsche A1 (Alla)</string>
+    <string name="app_version">version (0.01)</string>
+    <string name="app_all_words_title">vsego Slov:</string>
+    <string name="app_all_words_total">10</string>
+    <string name="username" />
+    <string name="password" />
+    <string name="view_data" />
+    <string name="add_user" />
+    <string name="update" />
+    <string name="delete" />
+</resources>
