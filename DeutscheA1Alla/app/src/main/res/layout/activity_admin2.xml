@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin2Activity">
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:onClick="showAllData"
+        android:text="Show data 4"
+        android:textSize="11sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:onClick="addData"
+        android:text="add data 3"
+        android:textSize="11sp"
+        android:textStyle="bold|italic" />
+
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:onClick="createTable"
+        android:text="create Table 2"
+        android:textSize="11sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+    android:id="@+id/button8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="5dp"
+    android:onClick="deleteData"
+    android:text="trunitrikan 1"
+    android:textSize="11sp"
+    android:textStyle="bold|italic" />
+
+</RelativeLayout>

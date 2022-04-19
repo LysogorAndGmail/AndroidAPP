@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".LessonActivity">
+
+    <TextView
+        android:id="@+id/currentWord"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="170dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/lessonNumber"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:text="Urok 1"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="270dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/answerButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/word_button"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/answerButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/word_button"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="340dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/answerButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/word_button"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/answerButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/word_button"
+            android:text="Button" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="440dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/next_uttom"
+            android:text="Next ->" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:orientation="horizontal">
+        <TableRow>
+            <TextView
+                android:id="@+id/statistik2WordsTitleTop"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="Pravilnie:"
+                android:layout_gravity="right"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/statistikcountWordsTitleTop"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/statistik2WordsTitleTop2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:text="Neprav:"
+                android:layout_gravity="right"
+                android:textSize="12sp" />
+            <TextView
+                android:id="@+id/statistik2countWordsTitleTop"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_red_light"
+                android:text="5"
+                android:textSize="12sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:max="25"
+        android:progress="15" />
+
+</RelativeLayout>
